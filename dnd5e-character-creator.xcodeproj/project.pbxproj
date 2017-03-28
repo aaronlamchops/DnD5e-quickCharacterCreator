@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6348CBE71E8ADA3B0081D6B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6348CBE61E8ADA3B0081D6B1 /* AppDelegate.swift */; };
+		6348CBE91E8ADA3B0081D6B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6348CBE81E8ADA3B0081D6B1 /* ViewController.swift */; };
+		6348CBEC1E8ADA3B0081D6B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6348CBEA1E8ADA3B0081D6B1 /* Main.storyboard */; };
+		6348CBEE1E8ADA3B0081D6B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6348CBED1E8ADA3B0081D6B1 /* Assets.xcassets */; };
+		6348CBF11E8ADA3B0081D6B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6348CBEF1E8ADA3B0081D6B1 /* LaunchScreen.storyboard */; };
+		6348CBFC1E8ADA3B0081D6B1 /* dnd5e_character_creatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6348CBFB1E8ADA3B0081D6B1 /* dnd5e_character_creatorTests.swift */; };
+		6348CC071E8ADA3B0081D6B1 /* dnd5e_character_creatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6348CC061E8ADA3B0081D6B1 /* dnd5e_character_creatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6348CBF81E8ADA3B0081D6B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6348CBDB1E8ADA3B0081D6B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6348CBE21E8ADA3B0081D6B1;
+			remoteInfo = "dnd5e-character-creator";
+		};
+		6348CC031E8ADA3B0081D6B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6348CBDB1E8ADA3B0081D6B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6348CBE21E8ADA3B0081D6B1;
+			remoteInfo = "dnd5e-character-creator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6348CBE31E8ADA3B0081D6B1 /* dnd5e-character-creator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dnd5e-character-creator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6348CBE61E8ADA3B0081D6B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6348CBE81E8ADA3B0081D6B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6348CBEB1E8ADA3B0081D6B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6348CBED1E8ADA3B0081D6B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6348CBF01E8ADA3B0081D6B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6348CBF21E8ADA3B0081D6B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6348CBF71E8ADA3B0081D6B1 /* dnd5e-character-creatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dnd5e-character-creatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6348CBFB1E8ADA3B0081D6B1 /* dnd5e_character_creatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dnd5e_character_creatorTests.swift; sourceTree = "<group>"; };
+		6348CBFD1E8ADA3B0081D6B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6348CC021E8ADA3B0081D6B1 /* dnd5e-character-creatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dnd5e-character-creatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6348CC061E8ADA3B0081D6B1 /* dnd5e_character_creatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dnd5e_character_creatorUITests.swift; sourceTree = "<group>"; };
+		6348CC081E8ADA3B0081D6B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6348CBE01E8ADA3B0081D6B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6348CBF41E8ADA3B0081D6B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6348CBFF1E8ADA3B0081D6B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6348CBDA1E8ADA3B0081D6B1 = {
+			isa = PBXGroup;
+			children = (
+				6348CBE51E8ADA3B0081D6B1 /* dnd5e-character-creator */,
+				6348CBFA1E8ADA3B0081D6B1 /* dnd5e-character-creatorTests */,
+				6348CC051E8ADA3B0081D6B1 /* dnd5e-character-creatorUITests */,
+				6348CBE41E8ADA3B0081D6B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6348CBE41E8ADA3B0081D6B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6348CBE31E8ADA3B0081D6B1 /* dnd5e-character-creator.app */,
+				6348CBF71E8ADA3B0081D6B1 /* dnd5e-character-creatorTests.xctest */,
+				6348CC021E8ADA3B0081D6B1 /* dnd5e-character-creatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6348CBE51E8ADA3B0081D6B1 /* dnd5e-character-creator */ = {
+			isa = PBXGroup;
+			children = (
+				6348CBE61E8ADA3B0081D6B1 /* AppDelegate.swift */,
+				6348CBE81E8ADA3B0081D6B1 /* ViewController.swift */,
+				6348CBEA1E8ADA3B0081D6B1 /* Main.storyboard */,
+				6348CBED1E8ADA3B0081D6B1 /* Assets.xcassets */,
+				6348CBEF1E8ADA3B0081D6B1 /* LaunchScreen.storyboard */,
+				6348CBF21E8ADA3B0081D6B1 /* Info.plist */,
+			);
+			path = "dnd5e-character-creator";
+			sourceTree = "<group>";
+		};
+		6348CBFA1E8ADA3B0081D6B1 /* dnd5e-character-creatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				6348CBFB1E8ADA3B0081D6B1 /* dnd5e_character_creatorTests.swift */,
+				6348CBFD1E8ADA3B0081D6B1 /* Info.plist */,
+			);
+			path = "dnd5e-character-creatorTests";
+			sourceTree = "<group>";
+		};
+		6348CC051E8ADA3B0081D6B1 /* dnd5e-character-creatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6348CC061E8ADA3B0081D6B1 /* dnd5e_character_creatorUITests.swift */,
+				6348CC081E8ADA3B0081D6B1 /* Info.plist */,
+			);
+			path = "dnd5e-character-creatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6348CBE21E8ADA3B0081D6B1 /* dnd5e-character-creator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6348CC0B1E8ADA3B0081D6B1 /* Build configuration list for PBXNativeTarget "dnd5e-character-creator" */;
+			buildPhases = (
+				6348CBDF1E8ADA3B0081D6B1 /* Sources */,
+				6348CBE01E8ADA3B0081D6B1 /* Frameworks */,
+				6348CBE11E8ADA3B0081D6B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dnd5e-character-creator";
+			productName = "dnd5e-character-creator";
+			productReference = 6348CBE31E8ADA3B0081D6B1 /* dnd5e-character-creator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6348CBF61E8ADA3B0081D6B1 /* dnd5e-character-creatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6348CC0E1E8ADA3B0081D6B1 /* Build configuration list for PBXNativeTarget "dnd5e-character-creatorTests" */;
+			buildPhases = (
+				6348CBF31E8ADA3B0081D6B1 /* Sources */,
+				6348CBF41E8ADA3B0081D6B1 /* Frameworks */,
+				6348CBF51E8ADA3B0081D6B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6348CBF91E8ADA3B0081D6B1 /* PBXTargetDependency */,
+			);
+			name = "dnd5e-character-creatorTests";
+			productName = "dnd5e-character-creatorTests";
+			productReference = 6348CBF71E8ADA3B0081D6B1 /* dnd5e-character-creatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6348CC011E8ADA3B0081D6B1 /* dnd5e-character-creatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6348CC111E8ADA3B0081D6B1 /* Build configuration list for PBXNativeTarget "dnd5e-character-creatorUITests" */;
+			buildPhases = (
+				6348CBFE1E8ADA3B0081D6B1 /* Sources */,
+				6348CBFF1E8ADA3B0081D6B1 /* Frameworks */,
+				6348CC001E8ADA3B0081D6B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6348CC041E8ADA3B0081D6B1 /* PBXTargetDependency */,
+			);
+			name = "dnd5e-character-creatorUITests";
+			productName = "dnd5e-character-creatorUITests";
+			productReference = 6348CC021E8ADA3B0081D6B1 /* dnd5e-character-creatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6348CBDB1E8ADA3B0081D6B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Aaron Lam";
+				TargetAttributes = {
+					6348CBE21E8ADA3B0081D6B1 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					6348CBF61E8ADA3B0081D6B1 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6348CBE21E8ADA3B0081D6B1;
+					};
+					6348CC011E8ADA3B0081D6B1 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6348CBE21E8ADA3B0081D6B1;
+					};
+				};
+			};
+			buildConfigurationList = 6348CBDE1E8ADA3B0081D6B1 /* Build configuration list for PBXProject "dnd5e-character-creator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6348CBDA1E8ADA3B0081D6B1;
+			productRefGroup = 6348CBE41E8ADA3B0081D6B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6348CBE21E8ADA3B0081D6B1 /* dnd5e-character-creator */,
+				6348CBF61E8ADA3B0081D6B1 /* dnd5e-character-creatorTests */,
+				6348CC011E8ADA3B0081D6B1 /* dnd5e-character-creatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6348CBE11E8ADA3B0081D6B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6348CBF11E8ADA3B0081D6B1 /* LaunchScreen.storyboard in Resources */,
+				6348CBEE1E8ADA3B0081D6B1 /* Assets.xcassets in Resources */,
+				6348CBEC1E8ADA3B0081D6B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6348CBF51E8ADA3B0081D6B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6348CC001E8ADA3B0081D6B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6348CBDF1E8ADA3B0081D6B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6348CBE91E8ADA3B0081D6B1 /* ViewController.swift in Sources */,
+				6348CBE71E8ADA3B0081D6B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6348CBF31E8ADA3B0081D6B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6348CBFC1E8ADA3B0081D6B1 /* dnd5e_character_creatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6348CBFE1E8ADA3B0081D6B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6348CC071E8ADA3B0081D6B1 /* dnd5e_character_creatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6348CBF91E8ADA3B0081D6B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6348CBE21E8ADA3B0081D6B1 /* dnd5e-character-creator */;
+			targetProxy = 6348CBF81E8ADA3B0081D6B1 /* PBXContainerItemProxy */;
+		};
+		6348CC041E8ADA3B0081D6B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6348CBE21E8ADA3B0081D6B1 /* dnd5e-character-creator */;
+			targetProxy = 6348CC031E8ADA3B0081D6B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6348CBEA1E8ADA3B0081D6B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6348CBEB1E8ADA3B0081D6B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6348CBEF1E8ADA3B0081D6B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6348CBF01E8ADA3B0081D6B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6348CC091E8ADA3B0081D6B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6348CC0A1E8ADA3B0081D6B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6348CC0C1E8ADA3B0081D6B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "dnd5e-character-creator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS3200.dnd5e-character-creator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6348CC0D1E8ADA3B0081D6B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "dnd5e-character-creator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS3200.dnd5e-character-creator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6348CC0F1E8ADA3B0081D6B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "dnd5e-character-creatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS3200.dnd5e-character-creatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dnd5e-character-creator.app/dnd5e-character-creator";
+			};
+			name = Debug;
+		};
+		6348CC101E8ADA3B0081D6B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "dnd5e-character-creatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS3200.dnd5e-character-creatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dnd5e-character-creator.app/dnd5e-character-creator";
+			};
+			name = Release;
+		};
+		6348CC121E8ADA3B0081D6B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "dnd5e-character-creatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS3200.dnd5e-character-creatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "dnd5e-character-creator";
+			};
+			name = Debug;
+		};
+		6348CC131E8ADA3B0081D6B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "dnd5e-character-creatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS3200.dnd5e-character-creatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "dnd5e-character-creator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6348CBDE1E8ADA3B0081D6B1 /* Build configuration list for PBXProject "dnd5e-character-creator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6348CC091E8ADA3B0081D6B1 /* Debug */,
+				6348CC0A1E8ADA3B0081D6B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6348CC0B1E8ADA3B0081D6B1 /* Build configuration list for PBXNativeTarget "dnd5e-character-creator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6348CC0C1E8ADA3B0081D6B1 /* Debug */,
+				6348CC0D1E8ADA3B0081D6B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6348CC0E1E8ADA3B0081D6B1 /* Build configuration list for PBXNativeTarget "dnd5e-character-creatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6348CC0F1E8ADA3B0081D6B1 /* Debug */,
+				6348CC101E8ADA3B0081D6B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6348CC111E8ADA3B0081D6B1 /* Build configuration list for PBXNativeTarget "dnd5e-character-creatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6348CC121E8ADA3B0081D6B1 /* Debug */,
+				6348CC131E8ADA3B0081D6B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6348CBDB1E8ADA3B0081D6B1 /* Project object */;
+}
