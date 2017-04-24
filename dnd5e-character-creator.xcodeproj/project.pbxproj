@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6306C8C21E93813900AA6BA5 /* ClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6306C8C11E93813900AA6BA5 /* ClassViewController.swift */; };
 		6348CBE71E8ADA3B0081D6B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6348CBE61E8ADA3B0081D6B1 /* AppDelegate.swift */; };
-		6348CBE91E8ADA3B0081D6B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6348CBE81E8ADA3B0081D6B1 /* ViewController.swift */; };
 		6348CBEC1E8ADA3B0081D6B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6348CBEA1E8ADA3B0081D6B1 /* Main.storyboard */; };
 		6348CBEE1E8ADA3B0081D6B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6348CBED1E8ADA3B0081D6B1 /* Assets.xcassets */; };
 		6348CBF11E8ADA3B0081D6B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6348CBEF1E8ADA3B0081D6B1 /* LaunchScreen.storyboard */; };
 		6348CBFC1E8ADA3B0081D6B1 /* dnd5e_character_creatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6348CBFB1E8ADA3B0081D6B1 /* dnd5e_character_creatorTests.swift */; };
 		6348CC071E8ADA3B0081D6B1 /* dnd5e_character_creatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6348CC061E8ADA3B0081D6B1 /* dnd5e_character_creatorUITests.swift */; };
+		6348CC151E8AECA90081D6B1 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6348CC141E8AECA90081D6B1 /* SelectViewController.swift */; };
+		6348CC221E8AFC1A0081D6B1 /* Nodesto Caps Condensed Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6348CC1E1E8AFC1A0081D6B1 /* Nodesto Caps Condensed Bold Italic.otf */; };
+		6348CC231E8AFC1A0081D6B1 /* Nodesto Caps Condensed Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6348CC1F1E8AFC1A0081D6B1 /* Nodesto Caps Condensed Bold.otf */; };
+		6348CC241E8AFC1A0081D6B1 /* Nodesto Caps Condensed Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6348CC201E8AFC1A0081D6B1 /* Nodesto Caps Condensed Italic.otf */; };
+		6348CC251E8AFC1A0081D6B1 /* Nodesto Caps Condensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6348CC211E8AFC1A0081D6B1 /* Nodesto Caps Condensed.otf */; };
+		635F8F691EAAEE3C0090EBAE /* SkillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F8F671EAAEE3C0090EBAE /* SkillCell.swift */; };
+		635F8F6A1EAAEE3C0090EBAE /* SkillCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 635F8F681EAAEE3C0090EBAE /* SkillCell.xib */; };
+		635F8F6C1EAAFBBA0090EBAE /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F8F6B1EAAFBBA0090EBAE /* Character.swift */; };
+		635F8F6E1EAB3D6E0090EBAE /* DesciptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F8F6D1EAB3D6E0090EBAE /* DesciptionViewController.swift */; };
+		6362F0EC1EA9B2A8008A32B9 /* AbilityScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6362F0EB1EA9B2A8008A32B9 /* AbilityScoresViewController.swift */; };
+		6362F0EE1EA9D84B008A32B9 /* SkillSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6362F0ED1EA9D84B008A32B9 /* SkillSelectViewController.swift */; };
+		6362F0F01EA9DCC0008A32B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6362F0EF1EA9DCC0008A32B9 /* ViewController.swift */; };
+		6365B86A1EAC8D4D000A3D07 /* MyCharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6365B8691EAC8D4D000A3D07 /* MyCharactersViewController.swift */; };
+		6365B86C1EAC99A4000A3D07 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6365B86B1EAC99A4000A3D07 /* CharacterViewController.swift */; };
+		63798CD11EAB67800015D598 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63798CD01EAB67800015D598 /* FinalViewController.swift */; };
+		63A3AC4A1E94B13E00AE6E82 /* ClassInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A3AC491E94B13E00AE6E82 /* ClassInfoViewController.swift */; };
+		63B70C9E1E8B8E4E003724C9 /* MoreInfoRaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B70C9D1E8B8E4E003724C9 /* MoreInfoRaceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6306C8C11E93813900AA6BA5 /* ClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassViewController.swift; sourceTree = "<group>"; };
 		6348CBE31E8ADA3B0081D6B1 /* dnd5e-character-creator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dnd5e-character-creator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6348CBE61E8ADA3B0081D6B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6348CBE81E8ADA3B0081D6B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6348CBEB1E8ADA3B0081D6B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6348CBED1E8ADA3B0081D6B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6348CBF01E8ADA3B0081D6B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +64,23 @@
 		6348CC021E8ADA3B0081D6B1 /* dnd5e-character-creatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dnd5e-character-creatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6348CC061E8ADA3B0081D6B1 /* dnd5e_character_creatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dnd5e_character_creatorUITests.swift; sourceTree = "<group>"; };
 		6348CC081E8ADA3B0081D6B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6348CC141E8AECA90081D6B1 /* SelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		6348CC1E1E8AFC1A0081D6B1 /* Nodesto Caps Condensed Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nodesto Caps Condensed Bold Italic.otf"; path = "../../5th Edition Font Clones CC/Nodesto Caps Condensed Bold Italic.otf"; sourceTree = "<group>"; };
+		6348CC1F1E8AFC1A0081D6B1 /* Nodesto Caps Condensed Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nodesto Caps Condensed Bold.otf"; path = "../../5th Edition Font Clones CC/Nodesto Caps Condensed Bold.otf"; sourceTree = "<group>"; };
+		6348CC201E8AFC1A0081D6B1 /* Nodesto Caps Condensed Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nodesto Caps Condensed Italic.otf"; path = "../../5th Edition Font Clones CC/Nodesto Caps Condensed Italic.otf"; sourceTree = "<group>"; };
+		6348CC211E8AFC1A0081D6B1 /* Nodesto Caps Condensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nodesto Caps Condensed.otf"; path = "../../5th Edition Font Clones CC/Nodesto Caps Condensed.otf"; sourceTree = "<group>"; };
+		635F8F671EAAEE3C0090EBAE /* SkillCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillCell.swift; sourceTree = "<group>"; };
+		635F8F681EAAEE3C0090EBAE /* SkillCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SkillCell.xib; sourceTree = "<group>"; };
+		635F8F6B1EAAFBBA0090EBAE /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		635F8F6D1EAB3D6E0090EBAE /* DesciptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesciptionViewController.swift; sourceTree = "<group>"; };
+		6362F0EB1EA9B2A8008A32B9 /* AbilityScoresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbilityScoresViewController.swift; sourceTree = "<group>"; };
+		6362F0ED1EA9D84B008A32B9 /* SkillSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SkillSelectViewController.swift; path = ../SkillSelectViewController.swift; sourceTree = "<group>"; };
+		6362F0EF1EA9DCC0008A32B9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6365B8691EAC8D4D000A3D07 /* MyCharactersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCharactersViewController.swift; sourceTree = "<group>"; };
+		6365B86B1EAC99A4000A3D07 /* CharacterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
+		63798CD01EAB67800015D598 /* FinalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+		63A3AC491E94B13E00AE6E82 /* ClassInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassInfoViewController.swift; sourceTree = "<group>"; };
+		63B70C9D1E8B8E4E003724C9 /* MoreInfoRaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreInfoRaceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +131,29 @@
 		6348CBE51E8ADA3B0081D6B1 /* dnd5e-character-creator */ = {
 			isa = PBXGroup;
 			children = (
+				6362F0ED1EA9D84B008A32B9 /* SkillSelectViewController.swift */,
+				6362F0EF1EA9DCC0008A32B9 /* ViewController.swift */,
 				6348CBE61E8ADA3B0081D6B1 /* AppDelegate.swift */,
-				6348CBE81E8ADA3B0081D6B1 /* ViewController.swift */,
 				6348CBEA1E8ADA3B0081D6B1 /* Main.storyboard */,
+				6365B86B1EAC99A4000A3D07 /* CharacterViewController.swift */,
+				6365B8691EAC8D4D000A3D07 /* MyCharactersViewController.swift */,
+				63798CD01EAB67800015D598 /* FinalViewController.swift */,
+				635F8F6D1EAB3D6E0090EBAE /* DesciptionViewController.swift */,
+				6362F0EB1EA9B2A8008A32B9 /* AbilityScoresViewController.swift */,
+				63A3AC491E94B13E00AE6E82 /* ClassInfoViewController.swift */,
+				635F8F6B1EAAFBBA0090EBAE /* Character.swift */,
+				6306C8C11E93813900AA6BA5 /* ClassViewController.swift */,
+				63B70C9D1E8B8E4E003724C9 /* MoreInfoRaceViewController.swift */,
+				6348CC141E8AECA90081D6B1 /* SelectViewController.swift */,
 				6348CBED1E8ADA3B0081D6B1 /* Assets.xcassets */,
+				6348CC1E1E8AFC1A0081D6B1 /* Nodesto Caps Condensed Bold Italic.otf */,
+				6348CC1F1E8AFC1A0081D6B1 /* Nodesto Caps Condensed Bold.otf */,
+				6348CC201E8AFC1A0081D6B1 /* Nodesto Caps Condensed Italic.otf */,
+				6348CC211E8AFC1A0081D6B1 /* Nodesto Caps Condensed.otf */,
 				6348CBEF1E8ADA3B0081D6B1 /* LaunchScreen.storyboard */,
 				6348CBF21E8ADA3B0081D6B1 /* Info.plist */,
+				635F8F671EAAEE3C0090EBAE /* SkillCell.swift */,
+				635F8F681EAAEE3C0090EBAE /* SkillCell.xib */,
 			);
 			path = "dnd5e-character-creator";
 			sourceTree = "<group>";
@@ -234,6 +285,11 @@
 			files = (
 				6348CBF11E8ADA3B0081D6B1 /* LaunchScreen.storyboard in Resources */,
 				6348CBEE1E8ADA3B0081D6B1 /* Assets.xcassets in Resources */,
+				6348CC231E8AFC1A0081D6B1 /* Nodesto Caps Condensed Bold.otf in Resources */,
+				6348CC251E8AFC1A0081D6B1 /* Nodesto Caps Condensed.otf in Resources */,
+				6348CC221E8AFC1A0081D6B1 /* Nodesto Caps Condensed Bold Italic.otf in Resources */,
+				635F8F6A1EAAEE3C0090EBAE /* SkillCell.xib in Resources */,
+				6348CC241E8AFC1A0081D6B1 /* Nodesto Caps Condensed Italic.otf in Resources */,
 				6348CBEC1E8ADA3B0081D6B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +315,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6348CBE91E8ADA3B0081D6B1 /* ViewController.swift in Sources */,
+				6362F0EE1EA9D84B008A32B9 /* SkillSelectViewController.swift in Sources */,
+				63798CD11EAB67800015D598 /* FinalViewController.swift in Sources */,
+				6365B86C1EAC99A4000A3D07 /* CharacterViewController.swift in Sources */,
+				635F8F691EAAEE3C0090EBAE /* SkillCell.swift in Sources */,
+				63B70C9E1E8B8E4E003724C9 /* MoreInfoRaceViewController.swift in Sources */,
+				6306C8C21E93813900AA6BA5 /* ClassViewController.swift in Sources */,
+				6348CC151E8AECA90081D6B1 /* SelectViewController.swift in Sources */,
 				6348CBE71E8ADA3B0081D6B1 /* AppDelegate.swift in Sources */,
+				6362F0EC1EA9B2A8008A32B9 /* AbilityScoresViewController.swift in Sources */,
+				635F8F6C1EAAFBBA0090EBAE /* Character.swift in Sources */,
+				635F8F6E1EAB3D6E0090EBAE /* DesciptionViewController.swift in Sources */,
+				6362F0F01EA9DCC0008A32B9 /* ViewController.swift in Sources */,
+				63A3AC4A1E94B13E00AE6E82 /* ClassInfoViewController.swift in Sources */,
+				6365B86A1EAC8D4D000A3D07 /* MyCharactersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +575,7 @@
 				6348CC0D1E8ADA3B0081D6B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6348CC0E1E8ADA3B0081D6B1 /* Build configuration list for PBXNativeTarget "dnd5e-character-creatorTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +584,7 @@
 				6348CC101E8ADA3B0081D6B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6348CC111E8ADA3B0081D6B1 /* Build configuration list for PBXNativeTarget "dnd5e-character-creatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +593,7 @@
 				6348CC131E8ADA3B0081D6B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
